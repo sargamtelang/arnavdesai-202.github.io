@@ -1,0 +1,53 @@
+
+body{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color: rgb(146, 156, 175);
+	background-image: url("Portobello.jpg");
+	height: 90%;
+}
+
+img{
+	position: relative;
+	float: right;
+	height: px;
+	width: 20px;
+}
+
+body, head{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+}
+
+button{
+	border-radius: 8px;
+	background-color:#ffcc66;
+	padding: 20px 70px;
+	font-size: 1em;
+	margin-top: 20px;
+}
+
+button:hover{
+	background-color: orange;
+	cursor: pointer;
+}
+
+#fields{
+	padding: 50px 20px;
+	font-size: 1.25em;
+	color: grey;
+	
+}
+
+p{
+    position: fixed;
+    bottom: 0px;
+    transition: transform 0.5s;
+	margin-left: 40vw;
+	font-size: 0.75em;
+}
+
+p:hover{
+    transform: scale(2,2);
+    background-color: rgba(255, 127, 80, 0.411);
+}
